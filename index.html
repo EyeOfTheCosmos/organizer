@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="script.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>Firebase Todo App</title>
+</head>
+
+<body>
+  <h2>My Secure Todo List</h2>
+
+  <!-- Authentication Section -->
+  <div id="auth-section">
+    <input type="email" id="email" placeholder="Email Address">
+    <input type="password" id="password" placeholder="Password">
+    <button id="login-btn">Log In</button>
+    <button id="signup-btn">Sign Up</button>
+  </div>
+  
+  <!-- Todo App Section (Hidden until logged in) -->
+  <div id="app-section" class="hidden">
+    <button id="logout-btn" style="width:auto; padding:4px 8px;position:relative; display:flex;">Logout</button>
+    <input type="text" id="todo-input" placeholder="What needs to be done?">
+    <button id="add-todo-btn">Add Todo</button>
+    <ul id="todo-list"></ul>
+  </div>
+
+
+</body>
+</html>
