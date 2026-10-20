@@ -1,6 +1,6 @@
-body { font-family: sans-serif; max-width: 400px; margin: 40px auto; padding: 20px; }
+body { font-family: sans-serif; max-width: 400px; margin: 40px auto; padding: 20px; background: #ffdcfa;}
     .hidden { display: none; }
-    input, button { padding: 8px; margin: 4px 0; width: 100%; box-sizing: border-box; }
+    input, button { padding: 8px; margin: 4px 0; width: 100%; box-sizing: border-box; background-color: rgb(255, 192, 246); border-color: rgb(255, 155, 238);}
     ul { list-style: none; padding: 0; }
-    li { background: #f3f3f3; margin: 5px 0; padding: 10px; border-radius: 4px; }
-    .delete-btn { font-size: 10px; padding: 2px 6px; line-height: 1; width: auto; border-radius: 4px; cursor: pointer;}
+    li { background: rgb(255, 189, 244); margin: 5px 0; padding: 10px; border-radius: 4px; }
+    .delete-btn { font-size: 10px; padding: 2px 6px; line-height: 1; width: auto; border-radius: 4px; cursor: pointer; background: rgb(255, 189, 244); border-color: rgb(255, 155, 238);}
